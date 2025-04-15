@@ -293,7 +293,8 @@ header {
     }
 
     .btnn {
-        padding: 23px 43px;
+        font-size: 18px;
+        padding: 23px 22px;
     }
 
 }
