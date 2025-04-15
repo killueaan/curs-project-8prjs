@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/media/images/logo/logo.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="header container">
+            <input type="checkbox" name="" id="burger">
+            <label for="burger">
+                <span class="icon"></span>
+            </label>
+            <div class="menu">
+                <nav>
+                    <a href="index.html">Главная <img src="assets/media/images/header/right.png" alt=""></a>
+                    <a href="catalog.html">Каталог <img src="assets/media/images/header/right.png" alt=""></a>
+                    <a href="contacts.html">Контакты <img src="assets/media/images/header/right.png" alt=""></a>
+                    <a href="about.html">О нас <img src="assets/media/images/header/right.png" alt=""></a>
+                </nav>
+                <div class="icons-nav">
+                    <a href="profile.html" class="ic">
+                        <img src="assets/media/images/header/User.png" alt="">
+                        <p>Мой профиль</p>
+                    </a>
+                    <a href="basket.html" class="ic">
+                        <img src="assets/media/images/header/shop-bag.png" alt="">
+                        <p>Корзина</p>
+                    </a>
+                </div>
+            </div>
+            <a href="index.html">
+                <img src="assets/media/images/logo/logo.png" alt="">
+            </a>
+            <div class="icons-all">
+                <a href="profile.html">
+                    <img src="assets/media/images/header/User.png" alt="">
+                </a>
+                <a href="basket.html">
+                    <img src="assets/media/images/header/shop-bag.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- registration start -->
+    <div class="autoreg container">
+        <div class="autoreg-title">
+            <h1>Регистрация</h1>
+            <p>Если у вас уже есть аккаут, то <a href="?page=auto">войдите</a></p>
+        </div>
+        <div class="autoreg-f">
+            <form class="add-form-upd" method="post" name="reg">
+                <div class="inputs-r">
+                    <input type="text" name="surname" placeholder="Введите фамилию" pattern="[а-яА-Я\s\-]{2,30}$"
+                        id="surname"
+                        title="Имя должно содержать от 2 до 30 символов (латинские буквы, пробелы или дефисы)">
+                    <input type="text" name="name" placeholder="Введите имя" pattern="[а-яА-Я\s\-]{2,30}$" id="surname"
+                        title="Имя должно содержать от 2 до 30 символов (латинские буквы, пробелы или дефисы)">
+                    <input type="text" name="email" placeholder="Введите электронную почту" pattern="[a-z]+@[a-z]+\.com"
+                        title="Неверный формат почты" id="email">
+                    <input type="password" name="password" placeholder="Введите пароль "
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{8,}$"
+                        title="Минимальная длина — 8 символов. Должен содержать хотя бы одну заглавную букву, одну строчную букву, одну цифру и один специальный символ (!@#$%^&*).">
+                    <input type="password" name="passwordr" placeholder="Повторите пароль">
+                </div>
+                <div class="personal-info">
+                    <input type="checkbox"><label>Я согласен с <a href="#">Условиями обработки данных</a></label>
+                </div>
+                <input type="submit" name="reg" value="Зарегистрироваться" class="btn">
+                <p>Нажимая «Зарегистрироваться», вы принимаете пользовательское соглашение и политику конфиденциальности
+                </p>
+            </form>
+        </div>
+    </div>
+    <!-- registration end -->
+
+    <!-- footer start -->
+    <footer class="mt-150">
+        <div class="footer container">
+            <div class="left">
+                <img src="assets/media/images/logo/logoo.png" alt="">
+                <h3>8 (999) 666 55 44 </h3>
+                <p>круглосуточный телефон call-центра</p>
+            </div>
+            <div class="right">
+                <nav class="footer-nav">
+                    <a href="index.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="contacts.html">Контакты</a>
+                    <a href="about.html">О нас</a>
+                </nav>
+                <div class="partners">
+                    <h2>Партнеры</h2>
+                    <a href="#">https://sunlight.net/</a>
+                    <a href="#">https://alrosadiamond.ru/</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>

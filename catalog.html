@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/media/images/logo/logo.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg2">
+        <!-- header start -->
+        <header>
+            <div class="header container">
+                <input type="checkbox" name="" id="burger">
+                <label for="burger">
+                    <span class="icon"></span>
+                </label>
+                <div class="menu">
+                    <nav>
+                        <a href="index.html">Главная <img src="assets/media/images/header/right.png" alt=""></a>
+                        <a href="catalog.html">Каталог <img src="assets/media/images/header/right.png" alt=""></a>
+                        <a href="contacts.html">Контакты <img src="assets/media/images/header/right.png" alt=""></a>
+                        <a href="about.html">О нас <img src="assets/media/images/header/right.png" alt=""></a>
+                    </nav>
+                    <div class="icons-nav">
+                        <a href="profile.html" class="ic">
+                            <img src="assets/media/images/header/User.png" alt="">
+                            <p>Мой профиль</p>
+                        </a>
+                        <a href="basket.html" class="ic">
+                            <img src="assets/media/images/header/shop-bag.png" alt="">
+                            <p>Корзина</p>
+                        </a>
+                    </div>
+                </div>
+                <a href="index.html">
+                    <img src="assets/media/images/logo/logo.png" alt="">
+                </a>
+                <div class="icons-all">
+                    <a href="profile.html">
+                        <img src="assets/media/images/header/User.png" alt="">
+                    </a>
+                    <a href="basket.html">
+                        <img src="assets/media/images/header/shop-bag.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+    </div>
+
+    <!-- catalog start -->
+    <div class="catalog container mt-75">
+        <h2>Каталог</h2>
+
+        <form action="" class="form-search">
+            <input type="text" name="name" placeholder="поиск">
+            <input type="submit" class="search-btn" name="search" value="">
+        </form>
+    </div>
+
+    <div class="catalog-page-section container">
+        <input type="checkbox" name="" id="filter">
+        <label for="filter"></label>
+        <div class="filters">
+            <div class="filt-block">
+                <h3>Цена</h3>
+                <div class="vars">
+                    <label for="price"><input type="checkbox" name="price" id=""> до 10 000 ₽</label>
+                    <label for="price"><input type="checkbox" name="price" id=""> до 40 000 ₽</label>
+                    <label for="price"><input type="checkbox" name="price" id=""> свыше 40 000 ₽</label>
+                </div>
+            </div>
+            <div class="filt-block">
+                <h3>Тип изделия</h3>
+                <div class="vars">
+                    <label for="type"><input type="checkbox" name="type" id=""> Кольца</label>
+                    <label for="type"><input type="checkbox" name="type" id=""> Серьги</label>
+                    <label for="type"><input type="checkbox" name="type" id=""> Пусеты</label>
+                    <label for="type"><input type="checkbox" name="type" id=""> Браслеты</label>
+                    <label for="type"><input type="checkbox" name="type" id=""> Подвески</label>
+                </div>
+            </div>
+            <div class="filt-block">
+                <h3>Коллекция</h3>
+                <div class="vars">
+                    <label for="collection"><input type="checkbox" name="collection" id=""> BALANCE</label>
+                    <label for="collection"><input type="checkbox" name="collection" id=""> PRESTIGE</label>
+                    <div class="drop-down">
+                        <div class="drop-down-btn">
+                            <button>Показать больше</button>
+                        </div>
+                        <div class="submenu">
+                            <label for="collection"><input type="checkbox" name="collection" id=""> WHAT IS LOVE</label>
+                            <label for="collection"><input type="checkbox" name="collection" id=""> MOMENTS</label>
+                            <label for="collection"><input type="checkbox" name="collection" id=""> LUMINOIS</label>
+                            <label for="collection"><input type="checkbox" name="collection" id=""> PREMIUM</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filt-block">
+                <h3>Размер</h3>
+                <div class="vars">
+                    <label for="size"><input type="checkbox" name="size" id=""> 15.0</label>
+                    <label for="size"><input type="checkbox" name="size" id=""> 15.5</label>
+                    <div class="drop-down">
+                        <div class="drop-down-btn">
+                            <button>Показать больше</button>
+                        </div>
+                        <div class="submenu">
+                            <label for="size"><input type="checkbox" name="size" id=""> 16.0</label>
+                            <label for="size"><input type="checkbox" name="size" id=""> 16.5</label>
+                            <label for="size"><input type="checkbox" name="size" id=""> 17.0</label>
+                            <label for="size"><input type="checkbox" name="size" id=""> 17.5</label>
+                            <label for="size"><input type="checkbox" name="size" id=""> 18.0</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filt-block">
+                <h3>Проба металла</h3>
+                <div class="vars">
+                    <label for="sample"><input type="checkbox" name="sample" id="">585</label>
+                    <label for="sample"><input type="checkbox" name="sample" id="">750</label>
+                    <div class="drop-down">
+                        <div class="drop-down-btn">
+                            <button>Показать больше</button>
+                        </div>
+                        <div class="submenu">
+                            <label for="sample"><input type="checkbox" name="sample" id="">1000</label>
+                            <label for="sample"><input type="checkbox" name="sample" id="">375</label>
+                            <label for="sample"><input type="checkbox" name="sample" id="">958</label>
+                        </div>
+                    </div>
+                    <script src="js/filters.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-section">
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="img-pr">
+                    <img src="assets/media/images/catalog/1.png" alt="">
+                </div>
+                <div class="content-card">
+                    <div class="text-card">
+                        <p>Коллекция BALANCE</p>
+                        <h3>Кольцо из белого золота</h3>
+                        <h4>361 300 ₽</h4>
+                    </div>
+                    <a href="product.html" class="btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- catalog end -->
+
+    <!-- footer start -->
+    <footer class="mt-150">
+        <div class="footer container">
+            <div class="left">
+                <img src="assets/media/images/logo/logoo.png" alt="">
+                <h3>8 (999) 666 55 44 </h3>
+                <p>круглосуточный телефон call-центра</p>
+            </div>
+            <div class="right">
+                <nav class="footer-nav">
+                    <a href="index.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="contacts.html">Контакты</a>
+                    <a href="about.html">О нас</a>
+                </nav>
+                <div class="partners">
+                    <h2>Партнеры</h2>
+                    <a href="#">https://sunlight.net/</a>
+                    <a href="#">https://alrosadiamond.ru/</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
