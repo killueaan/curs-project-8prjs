@@ -1381,7 +1381,6 @@ select {
 .docs {
     margin-top: 125px;
     background: url(../media/images/about/3.png) center/cover;
-    height: 100%;
 }
 
 .docs-content p {
@@ -1594,7 +1593,7 @@ textarea {
         margin: 19px 30px;
     }
 
-    .feedback {
+    .feedback-contacts {
         padding: 38px 10px;
         grid-template-columns: 1fr;
         border-radius: 25px;
@@ -1627,7 +1626,7 @@ textarea {
         font-size: 16px;
     }
 
-    .feedback input[type='text'],
+    .feedback-form input[type='text'],
     textarea {
         padding: 6px 0 15px 20px;
         color: #696969;
@@ -2350,13 +2349,31 @@ textarea {
 /* reg,auto end */
 
 /* feedback-sent  start*/
-.message-f-sent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 672px;
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1818187a;
+    z-index: 1000;
+}
+
+.modal {
     padding: 75px 75px 92px 75px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+.modal-container.active {
+    display: flex;
+    transition: 0.3s ease-in;
+}
+
+.message-f-sent {
+    flex-direction: column;
+    align-items: center;
 }
 
 .content-message-f {
@@ -2377,9 +2394,9 @@ textarea {
 }
 
 @media(max-width:800px) {
-    .message-f-sent {
+    .modal {
         max-width: 400px;
-        padding: 37px 45px;
+        padding: 37px 30px;
     }
 
     .content-message-f h2 {
@@ -2392,7 +2409,7 @@ textarea {
 }
 
 @media(max-width:400px) {
-    .message-f-sent {
+    .modal {
         max-width: 290px;
         padding: 37px 26px;
     }
